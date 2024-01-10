@@ -1,6 +1,3 @@
-#skill{
-    
-}
 .skill__inner{
     padding: 16px;
     display: flex;
@@ -74,7 +71,7 @@ font-family: var(--mainNum-font);
     .skill__desc{
         width: 100%;
     }
-    .skill__desc span{
+    .skill__desc span:not(.skill__flex span, .skill_empha){
         font-size: 20vw;
     }
 }
